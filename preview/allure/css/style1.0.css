@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* デザインベースベース名：Allure*/
+/* デザインベースベース名：Allure プレビュー*/
 /* レスポンシブ(PCファースト) */
 /* 基本設定 */
 :root {
@@ -1120,7 +1120,7 @@ ul.page-numbers li a.next {
 
 /* section01 */
 .section01 {
-  padding-top: 0;
+  padding-top: 68px;
 }
 .section01__wrap {
   flex-direction: column-reverse;
@@ -1135,13 +1135,13 @@ ul.page-numbers li a.next {
   z-index: -1;
 }
 .section01__wrap__left__text {
-  width: 70%;
+  width: 80.5%;
   margin: 0 auto;
   font-size: clamp(1.6rem, 1.6vw, 2.4rem);
   line-height: 1.55;
 }
 .section01__wrap__right {
-  width: 78%;
+  width: 80.5%;
 }
 .section01__wrap__right__img {
   aspect-ratio: 882/473;
@@ -2668,6 +2668,9 @@ ul.page-numbers li a.next {
   }
 
   /* section01 */
+  .section01 {
+    padding-top: 5.8vw;
+  }
   .section01__wrap__left {
     width: 100%;
   }

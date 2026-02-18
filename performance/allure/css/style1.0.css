@@ -345,7 +345,8 @@ ul.page-numbers li a.next {
 .themeColor--A .section02__inner__wrap__list__item__textWrap__subWrap {
   color: #fafafa;
 }
-.themeColor--A .section02__inner__wrap__list__item__textWrap__subWrap__Sub:nth-of-type(2) {
+.themeColor--A
+  .section02__inner__wrap__list__item__textWrap__subWrap__Sub:nth-of-type(2) {
   color: #4d4d4d;
 }
 .themeColor--A .section04__wrap__list__item__a {
@@ -408,7 +409,9 @@ ul.page-numbers li a.next {
 }
 .themeColor--B .header__top__menu__list__btn,
 .themeColor--B .header__top__menu__list__item__link.active,
-.themeColor--B .header__top__menu__list__item__link.active .header__top__menu__list__item__link__span {
+.themeColor--B
+  .header__top__menu__list__item__link.active
+  .header__top__menu__list__item__link__span {
   color: #fafafa;
 }
 .themeColor--B .section01__wrap__left__text {
@@ -513,7 +516,9 @@ ul.page-numbers li a.next {
 }
 .themeColor--D .header__top__menu__list__btn,
 .themeColor--D .header__top__menu__list__item__link.active,
-.themeColor--D .header__top__menu__list__item__link.active .header__top__menu__list__item__link__span {
+.themeColor--D
+  .header__top__menu__list__item__link.active
+  .header__top__menu__list__item__link__span {
   color: #fff;
 }
 .themeColor--D .section03__wrap__ttl {
@@ -577,7 +582,9 @@ ul.page-numbers li a.next {
 .themeColor--E .section02__inner__wrap__list__item__textWrap__subWrap {
   color: #fff;
 }
-.themeColor--E .section02__inner__wrap__list__item__textWrap__subWrap .fontColor2 {
+.themeColor--E
+  .section02__inner__wrap__list__item__textWrap__subWrap
+  .fontColor2 {
   color: #574e2b;
 }
 .themeColor--E .section04__wrap__list__item__a,
@@ -642,7 +649,8 @@ ul.page-numbers li a.next {
 .themeColor--F .header__top__menu__list__btn__link {
   color: #4d4d4d;
 }
-.themeColor--F .section02__inner__wrap__list__item__textWrap__subWrap__Sub:nth-of-type(2) {
+.themeColor--F
+  .section02__inner__wrap__list__item__textWrap__subWrap__Sub:nth-of-type(2) {
   color: #4d4d4d;
 }
 .themeColor--F .cta__wrap {
@@ -693,7 +701,9 @@ ul.page-numbers li a.next {
 .themeColor--G .section02__inner__wrap__list__item__textWrap__subWrap {
   color: #fafafa;
 }
-.themeColor--G .section02__inner__wrap__list__item__textWrap__subWrap .fontColor2 {
+.themeColor--G
+  .section02__inner__wrap__list__item__textWrap__subWrap
+  .fontColor2 {
   color: #4d4d4d;
 }
 .themeColor--G .section04__wrap__list__item__a {
@@ -760,7 +770,9 @@ ul.page-numbers li a.next {
 }
 .themeColor--H .header__top__menu__list__btn,
 .themeColor--H .header__top__menu__list__item__link.active,
-.themeColor--H .header__top__menu__list__item__link.active .header__top__menu__list__item__link__span {
+.themeColor--H
+  .header__top__menu__list__item__link.active
+  .header__top__menu__list__item__link__span {
   color: #fff;
 }
 .themeColor--H .section01__wrap__left__text {
@@ -817,7 +829,9 @@ ul.page-numbers li a.next {
 .themeColor--I .goToTop__box__icon {
   color: #203744;
 }
-.themeColor--I .section02__inner__wrap__list__item__textWrap__subWrap .fontColor2 {
+.themeColor--I
+  .section02__inner__wrap__list__item__textWrap__subWrap
+  .fontColor2 {
   color: #203744;
 }
 .themeColor--I .cta__wrap {
@@ -864,7 +878,9 @@ ul.page-numbers li a.next {
 }
 .themeColor--J .header__top__menu__list__btn,
 .themeColor--J .header__top__menu__list__item__link.active,
-.themeColor--J .header__top__menu__list__item__link.active .header__top__menu__list__item__link__span {
+.themeColor--J
+  .header__top__menu__list__item__link.active
+  .header__top__menu__list__item__link__span {
   color: #fafafa;
 }
 .themeColor--J .section01__wrap__left__text {
@@ -928,7 +944,9 @@ ul.page-numbers li a.next {
 }
 .themeColor--K .header__top__menu__list__btn,
 .themeColor--K .header__top__menu__list__item__link.active,
-.themeColor--K .header__top__menu__list__item__link.active .header__top__menu__list__item__link__span {
+.themeColor--K
+  .header__top__menu__list__item__link.active
+  .header__top__menu__list__item__link__span {
   color: #fff;
 }
 .themeColor--K .section01__wrap__left__text {
@@ -1102,7 +1120,7 @@ ul.page-numbers li a.next {
 
 /* section01 */
 .section01 {
-  padding-top: 0;
+  padding-top: 68px;
 }
 .section01__wrap {
   flex-direction: column-reverse;
@@ -1117,13 +1135,13 @@ ul.page-numbers li a.next {
   z-index: -1;
 }
 .section01__wrap__left__text {
-  width: 70%;
+  width: 80.5%;
   margin: 0 auto;
   font-size: clamp(1.6rem, 1.6vw, 2.4rem);
   line-height: 1.55;
 }
 .section01__wrap__right {
-  width: 78%;
+  width: 80.5%;
 }
 .section01__wrap__right__img {
   aspect-ratio: 882/473;
@@ -1196,7 +1214,8 @@ ul.page-numbers li a.next {
 .section02__inner__wrap__list__item__textWrap__subWrap__Sub:nth-of-type(2) {
   margin: 16px 0 0 auto;
 }
-.section02__inner__wrap__list__item--reverse .section02__inner__wrap__list__item__textWrap__subWrap__Sub {
+.section02__inner__wrap__list__item--reverse
+  .section02__inner__wrap__list__item__textWrap__subWrap__Sub {
   margin: 32px 0 0 auto;
 }
 .section02__inner__wrap__list__item--reverse
@@ -1445,12 +1464,14 @@ ul.page-numbers li a.next {
 }
 .section16__wrap__form {
   font-size: clamp(1.4rem, 2vw, 1.8rem);
+  margin-top: clamp(90px, 9vw, 160px);
   margin-top: clamp(20px, 3vw, 40px);
 }
 .section16__wrap__form__body {
   margin: 0 auto;
   width: 80%;
 }
+/* cf7 */
 .wpcf7-list-item.first {
   margin: 0 !important;
 }
@@ -1463,7 +1484,7 @@ ul.page-numbers li a.next {
 .section16__wrap__form__body .wpcf7-list-item-text {
   font-weight: bold;
 }
-
+/* cf7 */
 .section16__wrap__form__body__row {
   display: flex;
   align-items: center;
@@ -1472,7 +1493,8 @@ ul.page-numbers li a.next {
 .section16__wrap__form__body__row:nth-of-type(n + 2) {
   margin-top: 20px;
 }
-.section16__wrap__form__body__row.required .section16__wrap__form__body__row__ttl::after {
+.section16__wrap__form__body__row.required
+  .section16__wrap__form__body__row__ttl::after {
   content: "必須";
   background: #e20000;
   color: #fff;
@@ -1481,7 +1503,8 @@ ul.page-numbers li a.next {
   font-size: 1.2rem;
   margin-left: 20px;
 }
-.section16__wrap__form__body__row.any .section16__wrap__form__body__row__ttl::after {
+.section16__wrap__form__body__row.any
+  .section16__wrap__form__body__row__ttl::after {
   content: "任意";
   background: #666666;
   color: #fff;
@@ -1545,6 +1568,7 @@ ul.page-numbers li a.next {
 .section16__wrap__form__body__row--pp input[type="checkbox"]:checked::after {
   opacity: 1;
 }
+/* cf7 */
 .section16__wrap__form__body__row__ttl {
   font-weight: bold;
   padding: 20px 0;
@@ -1568,6 +1592,7 @@ ul.page-numbers li a.next {
   height: 300px;
   padding: 20px 10px;
 }
+/* cf7 */
 .section16__wrap__form__body__row__place > input[type="file"] {
   user-select: none;
   cursor: pointer;
@@ -1648,7 +1673,8 @@ ul.page-numbers li a.next {
   width: clamp(220px, 30vw, 320px);
   padding: 20px 0;
 }
-.section16__wrap__form__body__btnBox__wrap:first-of-type .section16__wrap__form__body__btnBox__btn {
+.section16__wrap__form__body__btnBox__wrap:first-of-type
+  .section16__wrap__form__body__btnBox__btn {
   border: 1px solid;
 }
 .section16__wrap__form__body__btnBox__wrap {
@@ -1660,6 +1686,7 @@ ul.page-numbers li a.next {
 .confirmation .section16__wrap__form__body__row__place {
   border: none !important;
 }
+/* cf7 */
 .wpcf7-spinner {
   display: none !important;
 }
@@ -2641,6 +2668,9 @@ ul.page-numbers li a.next {
   }
 
   /* section01 */
+  .section01 {
+    padding-top: 5.8vw;
+  }
   .section01__wrap__left {
     width: 100%;
   }
@@ -2697,7 +2727,8 @@ ul.page-numbers li a.next {
     margin: 16px auto 0 0;
     font-size: clamp(1.2rem, 1.2vw, 1.6rem);
   }
-  .section02__inner__wrap__list__item--reverse .section02__inner__wrap__list__item__textWrap__subWrap__Sub {
+  .section02__inner__wrap__list__item--reverse
+    .section02__inner__wrap__list__item__textWrap__subWrap__Sub {
     margin: 16px 0 0 auto;
   }
 
@@ -2708,7 +2739,8 @@ ul.page-numbers li a.next {
   }
   .section03__list__item {
     width: clamp(160px, 30vw, 235px);
-    padding: clamp(25px, 4.8vw, 37px) clamp(10px, 1.9vw, 27px) clamp(10px, 1.9vw, 18px);
+    padding: clamp(25px, 4.8vw, 37px) clamp(10px, 1.9vw, 27px)
+      clamp(10px, 1.9vw, 18px);
   }
   .section03__list__item__text {
     text-align: center;
@@ -3284,7 +3316,8 @@ ul.page-numbers li a.next {
     width: 100%;
     margin: 0;
   }
-  .section07__wrap__archive__list__item + .section07__wrap__archive__list__item {
+  .section07__wrap__archive__list__item
+    + .section07__wrap__archive__list__item {
     margin-top: 30px;
   }
   .section07__wrap__list__item__link__ttl,

@@ -46,7 +46,7 @@
         ?>
           <li class="section09__wrap__modalList__item">
             <div
-              class="section09__wrap__list__item__detail comModal__link__detail section09__wrap__list__item__detail--<?php the_ID(); ?> comSec none">
+              class="section09__wrap__list__item__detail mainColor comModal__link__detail section09__wrap__list__item__detail--<?php the_ID(); ?> comSec none">
               <h2 class="section09__wrap__list__item__detail__ttl"><?php the_title(); ?></h2>
 
               <div class="section09__wrap__list__item__detail__date"><?php the_time("Y.m.d"); ?></div>
@@ -128,7 +128,7 @@
           ?>
             <li class="section09__wrap__archive__modalList__item">
               <div
-                class="section09__wrap__archive__list__item__detail comModal__link__detail section09__wrap__archive__list__item__detail--<?php the_ID(); ?> comSec none">
+                class="section09__wrap__archive__list__item__detail mainColor comModal__link__detail section09__wrap__archive__list__item__detail--<?php the_ID(); ?> comSec none">
                 <h3 class="section09__wrap__archive__list__item__detail__ttl"><?php the_title(); ?></h3>
 
                 <div class="section09__wrap__archive__list__item__detail__date"><?php the_time("Y.m.d"); ?>

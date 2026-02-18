@@ -1,7 +1,7 @@
 <!-- デザインベースベース名：Allure-->
 <?php get_template_part('/parts/breadcrumb'); ?>
 
-<section id="section09_01" class="section09__archive comSec">
+<section id="section09_01" class="section09__archive mainColor comSec">
   <div class="section09__wrap__archive section09__wrap__archive--block">
     <h2 class="section09__wrap__archive__ttl comSec__ttl mw">
       <span class="section09__wrap__archive__ttl__span comSec__ttl__span">
