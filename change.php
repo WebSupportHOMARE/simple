@@ -123,12 +123,17 @@
       let $parent = $(this).closest(".change__list--image");
       $parent.find(".active").removeClass("active");
       $(this).addClass("active");
+
       let text = $(this).text();
-      $('img').addClass('imageChange');
-      $('.imageChange').each(function() {
-        var currentSrc = $(this).attr('src');
-        var newSrc = currentSrc.replace(/ⅰ|ⅱ|ⅲ|ⅳ/, text);
-        $(this).attr('src', newSrc);
+      $('picture img, picture source').each(function() {
+
+        let attrName = $(this).is('source') ? 'srcset' : 'src';
+        let currentVal = $(this).attr(attrName);
+
+        if (currentVal) {
+          let newVal = currentVal.replace(/ⅰ|ⅱ|ⅲ|ⅳ/g, text);
+          $(this).attr(attrName, newVal);
+        }
       });
     });
 
