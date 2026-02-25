@@ -53,11 +53,7 @@ $(() => {
       const windowWidth = $(window).width();
       const headerHeight = $(".header").height();
       if (windowWidth > 960) {
-        // 960px以上の場合の処理をここに記述
-        $(".header__top__menu").css("display", "flex");
-        $(".header__top__menu").css("margin-top", "");
-        $(".comModal__archive").css("margin-top", headerHeight);
-        $(".comModal__link__detail").css("margin-top", headerHeight);
+        $(".header__top__menu").css("display", "flex").css("margin-top", "");
         $(".section12__wrap__list__item__detail").css(
           "max-height",
           "calc(100vh - " + headerHeight + "px - clamp(40px, 4vw, 60px))"
@@ -68,16 +64,12 @@ $(() => {
         );
       }
       if (windowWidth <= 960) {
-        // 960px以下の場合の処理をここに記述
         $(".header__top__menu").css("display", "");
         $(".header__top__menu").css(
           "max-height",
           "calc(100vh - " + headerHeight + "px - clamp(25px, 7vw, 50px))"
         );
-        $(".header__top__hbFilter").css("display", "");
-        $(".header__top__hbFilter").css("top", headerHeight);
-        $(".comModal__archive").css("margin-top", headerHeight);
-        $(".comModal__link__detail").css("margin-top", headerHeight);
+        $(".header__top__hbFilter").css("display", "").css("top", headerHeight);
         $(".header__top__menu").css("margin-top", headerHeight);
         $(".header__top__hbBtn").removeClass("close");
         $(".section12__wrap__list__item__detail").css(
@@ -88,9 +80,6 @@ $(() => {
           "max-height",
           "calc(100vh - " + headerHeight + "px - clamp(40px, 4vw, 60px))"
         );
-      }
-      if (windowWidth <= 520) {
-        // 520px以下の場合の追加の処理をここに記述
       }
     }
     $(window).on("load resize", updateValue);

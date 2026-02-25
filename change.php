@@ -125,14 +125,22 @@
       $(this).addClass("active");
 
       let text = $(this).text();
-      $('picture img, picture source').each(function() {
 
-        let attrName = $(this).is('source') ? 'srcset' : 'src';
+      $('img, source').each(function() {
+
+        let isSource = $(this).is('source');
+        let attrName = isSource ? 'srcset' : 'src';
         let currentVal = $(this).attr(attrName);
 
         if (currentVal) {
+
           let newVal = currentVal.replace(/ⅰ|ⅱ|ⅲ|ⅳ/g, text);
           $(this).attr(attrName, newVal);
+
+
+          if (!isSource && $(this).parent('picture').length) {
+
+          }
         }
       });
     });
