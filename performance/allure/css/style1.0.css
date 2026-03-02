@@ -367,6 +367,8 @@ ul.page-numbers li a.next {
 }
 .themeColor--A .section07__wrap__list__item__detail__text li::before,
 .themeColor--A .section07__wrap__archive__list__item__detail__text li::before,
+.themeColor--A .section09__wrap__list__item__detail__text li::before,
+.themeColor--A .section09__wrap__archive__list__item__detail__text li::before,
 .themeColor--A .section12__wrap__list__item__detail__text li::before,
 .themeColor--A .section12__wrap__archive__list__item__detail__text li::before {
   background: #eaafb5;
@@ -434,6 +436,8 @@ ul.page-numbers li a.next {
 }
 .themeColor--B .section07__wrap__list__item__detail__text li::before,
 .themeColor--B .section07__wrap__archive__list__item__detail__text li::before,
+.themeColor--B .section09__wrap__list__item__detail__text li::before,
+.themeColor--B .section09__wrap__archive__list__item__detail__text li::before,
 .themeColor--B .section12__wrap__list__item__detail__text li::before,
 .themeColor--B .section12__wrap__archive__list__item__detail__text li::before {
   background: #8f3f3f;

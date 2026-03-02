@@ -366,10 +366,18 @@ ul.page-numbers li a.next {
   background: #4d4d4d;
 }
 .themeColor--A .section07__wrap__list__item__detail__text li::before,
-.themeColor--A .section07__wrap__archive__list__item__detail__text li::before,
-.themeColor--A .section12__wrap__list__item__detail__text li::before,
+.themeColor--A
+  .section07__wrap__archive__list__item__detail__text
+  li::before
+  .themeColor--A
+  .section12__wrap__list__item__detail__text
+  li::before,
 .themeColor--A .section12__wrap__archive__list__item__detail__text li::before {
   background: #eaafb5;
+}
+.themeColor--A .section09__wrap__list__item__detail__text li::before,
+.themeColor--A .section09__wrap__archive__list__item__detail__text li::before {
+  background: #896f7c;
 }
 .themeColor--A .section08__wrap {
   color: #fafafa;
@@ -433,10 +441,18 @@ ul.page-numbers li a.next {
   background: #4d4d4d;
 }
 .themeColor--B .section07__wrap__list__item__detail__text li::before,
-.themeColor--B .section07__wrap__archive__list__item__detail__text li::before,
-.themeColor--B .section12__wrap__list__item__detail__text li::before,
+.themeColor--B
+  .section07__wrap__archive__list__item__detail__text
+  li::before
+  .themeColor--B
+  .section12__wrap__list__item__detail__text
+  li::before,
 .themeColor--B .section12__wrap__archive__list__item__detail__text li::before {
   background: #8f3f3f;
+}
+.themeColor--B .section09__wrap__list__item__detail__text li::before,
+.themeColor--B .section09__wrap__archive__list__item__detail__text li::before {
+  background: #e8c3bc;
 }
 .themeColor--B .custom-select-options div:hover {
   background: #e8c3bc;
@@ -482,10 +498,18 @@ ul.page-numbers li a.next {
   border: 1px solid #203744;
 }
 .themeColor--C .section07__wrap__list__item__detail__text li::before,
-.themeColor--C .section07__wrap__archive__list__item__detail__text li::before,
-.themeColor--C .section12__wrap__list__item__detail__text li::before,
+.themeColor--C
+  .section07__wrap__archive__list__item__detail__text
+  li::before
+  .themeColor--C
+  .section12__wrap__list__item__detail__text
+  li::before,
 .themeColor--C .section12__wrap__archive__list__item__detail__text li::before {
   background: #e5a481;
+}
+.themeColor--C .section09__wrap__list__item__detail__text li::before,
+.themeColor--C .section09__wrap__archive__list__item__detail__text li::before {
+  background: #f6cf9f;
 }
 .themeColor--C .custom-select-options div:hover {
   background: #f6cf9f;
@@ -537,10 +561,18 @@ ul.page-numbers li a.next {
   background: #574e2b;
 }
 .themeColor--D .section07__wrap__list__item__detail__text li::before,
-.themeColor--D .section07__wrap__archive__list__item__detail__text li::before,
-.themeColor--D .section12__wrap__list__item__detail__text li::before,
+.themeColor--D
+  .section07__wrap__archive__list__item__detail__text
+  li::before
+  .themeColor--D
+  .section12__wrap__list__item__detail__text
+  li::before,
 .themeColor--D .section12__wrap__archive__list__item__detail__text li::before {
   background: #cfa086;
+}
+.themeColor--D .section09__wrap__list__item__detail__text li::before,
+.themeColor--D .section09__wrap__archive__list__item__detail__text li::before {
+  background: #efd98e;
 }
 .themeColor--D .custom-select-options div:hover {
   background: #efd98e;
@@ -605,6 +637,8 @@ ul.page-numbers li a.next {
 }
 .themeColor--E .section07__wrap__list__item__detail__text li::before,
 .themeColor--E .section07__wrap__archive__list__item__detail__text li::before,
+.themeColor--E .section09__wrap__list__item__detail__text li::before,
+.themeColor--E .section09__wrap__archive__list__item__detail__text li::before,
 .themeColor--E .section12__wrap__list__item__detail__text li::before,
 .themeColor--E .section12__wrap__archive__list__item__detail__text li::before {
   background: #b9a18b;
@@ -664,6 +698,8 @@ ul.page-numbers li a.next {
 }
 .themeColor--F .section07__wrap__list__item__detail__text li::before,
 .themeColor--F .section07__wrap__archive__list__item__detail__text li::before,
+.themeColor--F .section09__wrap__list__item__detail__text li::before,
+.themeColor--F .section09__wrap__archive__list__item__detail__text li::before,
 .themeColor--F .section12__wrap__list__item__detail__text li::before,
 .themeColor--F .section12__wrap__archive__list__item__detail__text li::before {
   background: #c0c8ee;
@@ -725,6 +761,8 @@ ul.page-numbers li a.next {
 }
 .themeColor--G .section07__wrap__list__item__detail__text li::before,
 .themeColor--G .section07__wrap__archive__list__item__detail__text li::before,
+.themeColor--G .section09__wrap__list__item__detail__text li::before,
+.themeColor--G .section09__wrap__archive__list__item__detail__text li::before,
 .themeColor--G .section12__wrap__list__item__detail__text li::before,
 .themeColor--G .section12__wrap__archive__list__item__detail__text li::before {
   background: #995f7d;
@@ -792,6 +830,8 @@ ul.page-numbers li a.next {
 }
 .themeColor--H .section07__wrap__list__item__detail__text li::before,
 .themeColor--H .section07__wrap__archive__list__item__detail__text li::before,
+.themeColor--H .section09__wrap__list__item__detail__text li::before,
+.themeColor--H .section09__wrap__archive__list__item__detail__text li::before,
 .themeColor--H .section12__wrap__list__item__detail__text li::before,
 .themeColor--H .section12__wrap__archive__list__item__detail__text li::before {
   background: #7b869c;
@@ -852,6 +892,8 @@ ul.page-numbers li a.next {
 }
 .themeColor--I .section07__wrap__list__item__detail__text li::before,
 .themeColor--I .section07__wrap__archive__list__item__detail__text li::before,
+.themeColor--I .section09__wrap__list__item__detail__text li::before,
+.themeColor--I .section09__wrap__archive__list__item__detail__text li::before,
 .themeColor--I .section12__wrap__list__item__detail__text li::before,
 .themeColor--I .section12__wrap__archive__list__item__detail__text li::before {
   background: #b1b4b1;
@@ -912,6 +954,8 @@ ul.page-numbers li a.next {
 }
 .themeColor--J .section07__wrap__list__item__detail__text li::before,
 .themeColor--J .section07__wrap__archive__list__item__detail__text li::before,
+.themeColor--J .section09__wrap__list__item__detail__text li::before,
+.themeColor--J .section09__wrap__archive__list__item__detail__text li::before,
 .themeColor--J .section12__wrap__list__item__detail__text li::before,
 .themeColor--J .section12__wrap__archive__list__item__detail__text li::before {
   background: #677369;
@@ -978,6 +1022,8 @@ ul.page-numbers li a.next {
 }
 .themeColor--K .section07__wrap__list__item__detail__text li::before,
 .themeColor--K .section07__wrap__archive__list__item__detail__text li::before,
+.themeColor--K .section09__wrap__list__item__detail__text li::before,
+.themeColor--K .section09__wrap__archive__list__item__detail__text li::before,
 .themeColor--K .section12__wrap__list__item__detail__text li::before,
 .themeColor--K .section12__wrap__archive__list__item__detail__text li::before {
   background: #7a9777;
@@ -2049,6 +2095,53 @@ ul.page-numbers li a.next {
 }
 
 /* section09 */
+.section09__wrap {
+  position: relative;
+}
+.section09__wrap__list__item__detail__text h4 {
+  font-size: clamp(1.8rem, 1.8vw, 2.4rem);
+  font-weight: 700;
+  margin-top: clamp(20px, 2vw, 30px);
+}
+.section09__wrap__list__item__detail__text a {
+  display: inline;
+  margin-top: clamp(20px, 2vw, 30px);
+  text-decoration: underline;
+}
+.section09__wrap__list__item__detail__text p {
+  margin-top: clamp(20px, 2vw, 30px);
+}
+.section09__wrap__list__item__detail__text ul {
+  margin-top: clamp(20px, 2vw, 30px);
+}
+.section09__wrap__list__item__detail__text li {
+  position: relative;
+  padding-left: 20px;
+}
+.section09__wrap__list__item__detail__text li + li {
+  margin-top: clamp(15px, 1.5vw, 22px);
+}
+.section09__wrap__list__item__detail__text li::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  left: 0;
+  top: 8px;
+}
+.section09__wrap__list__item__detail__text img {
+  display: block;
+  width: 60%;
+  max-width: 864px;
+  margin: clamp(40px, 4vw, 60px) auto 0;
+}
+.wp-block-button__link {
+  display: block !important;
+  border-radius: 0 !important;
+  text-decoration: none !important;
+  border-width: 1px !important;
+}
 .section09__wrap__more--modal {
   width: 320px;
   margin: 0 0 0 auto;
