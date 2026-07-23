@@ -20,27 +20,26 @@
 
     if (have_posts()) :
     ?>
-      <!-- ページ仕様 -->
-      <ul class="section09__wrap__archive__list mw">
-        <?php while (have_posts()) : the_post(); ?>
-          <li class="section09__wrap__archive__list__item">
-            <a class="section09__wrap__archive__list__item__link" href="<?php the_permalink(); ?>">
-              <h3 class="section09__wrap__archive__list__item__link__ttl"><?php the_title(); ?></h3>
+    <ul class="section09__wrap__archive__list mw">
+      <?php while (have_posts()) : the_post(); ?>
+      <li class="section09__wrap__archive__list__item">
+        <a class="section09__wrap__archive__list__item__link" href="<?php the_permalink(); ?>">
+          <h3 class="section09__wrap__archive__list__item__link__ttl"><?php the_title(); ?></h3>
 
-              <div class="section09__wrap__archive__list__item__link__date"><?php the_time("Y.m.d"); ?></div>
+          <div class="section09__wrap__archive__list__item__link__date"><?php the_time("Y.m.d"); ?></div>
 
-              <div class="section09__wrap__archive__list__item__link__text"><?php the_content(); ?></div>
-            </a>
-          </li>
-        <?php endwhile; ?>
-      </ul>
+          <div class="section09__wrap__archive__list__item__link__text"><?php the_content(); ?></div>
+        </a>
+      </li>
+      <?php endwhile; ?>
+    </ul>
 
-      <?php wp_reset_postdata(); ?>
+    <?php wp_reset_postdata(); ?>
 
-      <?php get_template_part('/parts/pagination'); ?>
+    <?php get_template_part('/parts/pagination'); ?>
 
     <?php else : ?>
-      <p class="not__text">現在セクション09の投稿はございません。</p>
+    <p class="not__text">現在セクション09の投稿はございません。</p>
     <?php endif; ?>
   </div>
 </section>

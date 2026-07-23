@@ -15,7 +15,7 @@
     is_404() ||
     is_page(array('contact-confirmation', 'contact-thanks'))
   ): ?>
-    <meta name="robots" content="noindex, follow">
+  <meta name="robots" content="noindex, follow">
   <?php endif; ?>
   <!-- ファビコン -->
   <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/user-img/favicon.ico">
@@ -33,9 +33,9 @@
   <!-- OGP -->
   <meta property="og:url" content="<?php echo get_the_permalink(); ?>">
   <?php if (is_home() || is_front_page()) : ?>
-    <meta property="og:type" content="website">
+  <meta property="og:type" content="website">
   <?php else : ?>
-    <meta property="og:type" content="article">
+  <meta property="og:type" content="article">
   <?php endif; ?>
   <meta property="og:title" content="<?php bloginfo("name"); ?>">
   <meta property="og:description" content="<?php bloginfo("description"); ?>">
@@ -53,38 +53,39 @@
   <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap"
     rel="stylesheet">
   <script>
-    (function(d) {
-      var config = {
-          kitId: 'bfu3dkv',
-          scriptTimeout: 3000,
-          async: true
-        },
-        h = d.documentElement,
-        t = setTimeout(function() {
-          h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-        }, config.scriptTimeout),
-        tk = d.createElement("script"),
-        f = false,
-        s = d.getElementsByTagName("script")[0],
-        a;
-      h.className += " wf-loading";
-      tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
-      tk.async = true;
-      tk.onload = tk.onreadystatechange = function() {
-        a = this.readyState;
-        if (f || a && a != "complete" && a != "loaded") return;
-        f = true;
-        clearTimeout(t);
-        try {
-          Typekit.load(config)
-        } catch (e) {}
-      };
-      s.parentNode.insertBefore(tk, s)
-    })(document);
+  (function(d) {
+    var config = {
+        kitId: 'bfu3dkv',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h = d.documentElement,
+      t = setTimeout(function() {
+        h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+      }, config.scriptTimeout),
+      tk = d.createElement("script"),
+      f = false,
+      s = d.getElementsByTagName("script")[0],
+      a;
+    h.className += " wf-loading";
+    tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+    tk.async = true;
+    tk.onload = tk.onreadystatechange = function() {
+      a = this.readyState;
+      if (f || a && a != "complete" && a != "loaded") return;
+      f = true;
+      clearTimeout(t);
+      try {
+        Typekit.load(config)
+      } catch (e) {}
+    };
+    s.parentNode.insertBefore(tk, s)
+  })(document);
   </script>
   <!-- CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="https://unpkg.com/scroll-hint@1.2.9/css/scroll-hint.css">
   <?php wp_head(); ?>
 </head>
 
@@ -188,6 +189,18 @@
             <a class="header__top__menu__list__item__link<?php if (is_post_type_archive('#') || is_singular("#") || is_page('#')) : ?> active mainColor<?php endif; ?>"
               href="<?php echo home_url('/#/'); ?>">section15<span
                 class="header__top__menu__list__item__link__span<?php if (is_post_type_archive('#') || is_singular("#") || is_page('#')) : ?> active<?php endif; ?>">セクション15</span></a>
+          </li>
+
+          <li class="header__top__menu__list__item">
+            <a class="header__top__menu__list__item__link<?php if (is_post_type_archive('#') || is_singular("#") || is_page('#')) : ?> active mainColor<?php endif; ?>"
+              href="<?php echo home_url('/#/'); ?>">section15<span
+                class="header__top__menu__list__item__link__span<?php if (is_post_type_archive('#') || is_singular("#") || is_page('#')) : ?> active<?php endif; ?>">セクション15</span></a>
+          </li>
+
+          <li class="header__top__menu__list__item">
+            <a class="header__top__menu__list__item__link<?php if (is_post_type_archive('#') || is_singular("#") || is_page('#')) : ?> active mainColor<?php endif; ?>"
+              href="<?php echo home_url('/#/'); ?>">section17<span
+                class="header__top__menu__list__item__link__span<?php if (is_post_type_archive('#') || is_singular("#") || is_page('#')) : ?> active<?php endif; ?>">セクション17</span></a>
           </li>
         </ul>
 

@@ -13,7 +13,8 @@
       <ul class="section02__inner__wrap__list flex">
         <li class="section02__inner__wrap__list__item flex">
           <div class="section02__inner__wrap__list__item__imgBox">
-            <img class="section02__wrap__list__item__imgBox__img img3-2" src="<?php echo get_template_directory_uri(); ?>/user-img/noimageBeside.png" alt="section02テストイメージ01">
+            <img class="section02__wrap__list__item__imgBox__img img3-2"
+              src="<?php echo get_template_directory_uri(); ?>/user-img/noimageBeside.png" alt="section02テストイメージ01">
           </div>
 
           <div class="section02__inner__wrap__list__item__textWrap">
@@ -30,7 +31,7 @@
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
 
-              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor fontColor2">
+              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor">
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
             </div>
@@ -39,7 +40,8 @@
 
         <li class="section02__inner__wrap__list__item flex section02__inner__wrap__list__item--reverse">
           <div class="section02__inner__wrap__list__item__imgBox">
-            <img class="section02__wrap__list__item__imgBox__img img3-2" src="<?php echo get_template_directory_uri(); ?>/user-img/noimageBeside.png" alt="section02テストイメージ02">
+            <img class="section02__wrap__list__item__imgBox__img img3-2"
+              src="<?php echo get_template_directory_uri(); ?>/user-img/noimageBeside.png" alt="section02テストイメージ02">
           </div>
 
           <div class="section02__inner__wrap__list__item__textWrap">
@@ -56,7 +58,7 @@
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
 
-              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor fontColor2">
+              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor ">
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
             </div>
@@ -65,7 +67,8 @@
 
         <li class="section02__inner__wrap__list__item flex">
           <div class="section02__inner__wrap__list__item__imgBox">
-            <img class="section02__wrap__list__item__imgBox__img img3-2" src="<?php echo get_template_directory_uri(); ?>/user-img/noimageBeside.png" alt="section02テストイメージ03">
+            <img class="section02__wrap__list__item__imgBox__img img3-2"
+              src="<?php echo get_template_directory_uri(); ?>/user-img/noimageBeside.png" alt="section02テストイメージ03">
           </div>
 
           <div class="section02__inner__wrap__list__item__textWrap">
@@ -82,7 +85,7 @@
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
 
-              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor fontColor2">
+              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor ">
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
             </div>
@@ -91,7 +94,8 @@
 
         <li class="section02__inner__wrap__list__item flex section02__inner__wrap__list__item--reverse">
           <div class="section02__inner__wrap__list__item__imgBox">
-            <img class="section02__wrap__list__item__imgBox__img img3-2" src="<?php echo get_template_directory_uri(); ?>/user-img/noimageBeside.png" alt="section02テストイメージ04">
+            <img class="section02__wrap__list__item__imgBox__img img3-2"
+              src="<?php echo get_template_directory_uri(); ?>/user-img/noimageBeside.png" alt="section02テストイメージ04">
           </div>
 
           <div class="section02__inner__wrap__list__item__textWrap">
@@ -108,7 +112,7 @@
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
 
-              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor fontColor2">
+              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor ">
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
             </div>

@@ -18,86 +18,35 @@
 
     if (have_posts()) :
     ?>
-      <!-- ページ仕様 -->
-      <ul class="section07__wrap__archive__list flex mw">
-        <?php while (have_posts()) : the_post(); ?>
-          <li class="section07__wrap__archive__list__item aLink">
-            <a class="section07__wrap__archive__list__item__link mainColor" href="<?php the_permalink(); ?>">
-              <div class="section07__wrap__archive__list__item__link__imgBox">
-                <?php if (has_post_thumbnail()) : ?>
-                  <img class="section07__wrap__archive__list__item__link__imgBox__img img3-2"
-                    src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
-                <?php else : ?>
-                  <img class="section07__wrap__archive__list__item__link__imgBox__img img3-2"
-                    src="<?php echo get_template_directory_uri(); ?>/user-img/noimageBeside.png"
-                    alt="アイキャッチ画像なし">
-                <?php endif; ?>
-              </div>
-
-              <div class="section07__wrap__archive__list__item__link__date"><?php the_time("Y.m.d"); ?></div>
-
-              <h3 class="section07__wrap__archive__list__item__link__ttl"><?php the_title(); ?></h3>
-            </a>
-          </li>
-        <?php endwhile; ?>
-      </ul>
-
-      <!-- モーダル仕様 -->
-      <!-- <ul class="section07__wrap__archive__list flex mw">
+    <!-- ページ仕様 -->
+    <ul class="section07__wrap__archive__list flex mw">
       <?php while (have_posts()) : the_post(); ?>
-            <li class="section07__wrap__archive__list__item">
-              <div class="section07__wrap__archive__list__item__link comModal__link section07__wrap__archive__list__item__link--<?php the_ID(); ?> mainColor">
-                <div class="section07__wrap__archive__list__item__link__imgBox">
-                <?php if (has_post_thumbnail()) : ?>
-                  <img class="section07__wrap__archive__list__item__link__imgBox__img img3-2" src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
-                <?php else : ?>
-                  <img class="section07__wrap__archive__list__item__link__imgBox__img img3-2" src="<?php echo get_template_directory_uri(); ?>/user-img/noimageBeside.png" alt="アイキャッチ画像なし">
-                <?php endif; ?>
-                </div>
+      <li class="section07__wrap__archive__list__item aLink">
+        <a class="section07__wrap__archive__list__item__link mainColor" href="<?php the_permalink(); ?>">
+          <div class="section07__wrap__archive__list__item__link__imgBox">
+            <?php if (has_post_thumbnail()) : ?>
+            <img class="section07__wrap__archive__list__item__link__imgBox__img img3-2"
+              src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+            <?php else : ?>
+            <img class="section07__wrap__archive__list__item__link__imgBox__img img3-2"
+              src="<?php echo get_template_directory_uri(); ?>/user-img/noimageBeside.png" alt="アイキャッチ画像なし">
+            <?php endif; ?>
+          </div>
 
-                <div class="section07__wrap__archive__list__item__link__date"><?php the_time("Y.m.d"); ?></div>
+          <div class="section07__wrap__archive__list__item__link__date"><?php the_time("Y.m.d"); ?></div>
 
-                <h3 class="section07__wrap__archive__list__item__link__ttl"><?php the_title(); ?></h3>
-              </div>
+          <h3 class="section07__wrap__archive__list__item__link__ttl"><?php the_title(); ?></h3>
+        </a>
+      </li>
+      <?php endwhile; ?>
+    </ul>
 
-            </li>
-          <?php endwhile; ?>
-        </ul>
+    <?php wp_reset_postdata(); ?>
 
-        <ul class="section07__wrap__archive__modalList">
-        <?php while (have_posts()) : the_post(); ?>
-            <li class="section07__wrap__archive__modalList__item">
-              <div class="section07__wrap__archive__list__item__detail comModal__link__detail section07__wrap__archive__list__item__detail--<?php the_ID(); ?> comSec mainColor none">
-                <div class="section07__wrap__archive__list__item__detail__imgBox">
-                <?php if (has_post_thumbnail()) : ?>
-                  <img class="section07__wrap__archive__list__item__detail__imgBox__img" src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
-                <?php else : ?>
-                  <img class="section07__wrap__archive__list__item__detail__imgBox__img" src="<?php echo get_template_directory_uri(); ?>/user-img/noimageBeside.png" alt="アイキャッチ画像なし">
-                <?php endif; ?>
-                </div>
-
-                <div class="section07__wrap__archive__list__item__detail__date"><?php the_time("Y.m.d"); ?></div>
-
-                <h3 class="section07__wrap__archive__list__item__detail__ttl"><?php the_title(); ?></h3>
-
-                <div class="section07__wrap__archive__list__item__detail__text"><?php the_content(); ?></div>
-
-                <div class="section07__wrap__archive__list__item__detail__more">
-                  <div class="section07__wrap__archive__list__item__detail__more__link comMore__link subColor">一覧へ戻る</div>
-                </div>
-              </div>
-
-              <div class="section07__wrap__archive__list__item__detail__filter none"></div>
-            </li>
-          <?php endwhile; ?>
-        </ul> -->
-
-      <?php wp_reset_postdata(); ?>
-
-      <?php get_template_part('/parts/pagination'); ?>
+    <?php get_template_part('/parts/pagination'); ?>
 
     <?php else : ?>
-      <p class="not__text">現在セクション07の投稿はございません。</p>
+    <p class="not__text">現在セクション07の投稿はございません。</p>
     <?php endif; ?>
   </div>
 </section>

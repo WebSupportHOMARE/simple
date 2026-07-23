@@ -48,6 +48,8 @@
     href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap"
+    rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet">
@@ -84,6 +86,7 @@
   <!-- CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="https://unpkg.com/scroll-hint@1.2.9/css/scroll-hint.css">
   <?php wp_head(); ?>
 </head>
 
@@ -174,11 +177,15 @@
             <a class="header__top__menu__list__item__link" href="#section15_01">section15<span
                 class="header__top__menu__list__item__link__span">セクション15</span></a>
           </li>
+
+          <li class="header__top__menu__list__item">
+            <a class="header__top__menu__list__item__link" href="#section17_01">section17<span
+                class="header__top__menu__list__item__link__span">セクション17</span></a>
+          </li>
         </ul>
 
         <div class="header__top__menu__list__btn">
-          <a class="header__top__menu__list__btn__link comMore__link subColor2"
-            href="#section16_01">セクション16</a>
+          <a class="header__top__menu__list__btn__link comMore__link subColor2" href="#section16_01">セクション16</a>
         </div>
       </div>
 

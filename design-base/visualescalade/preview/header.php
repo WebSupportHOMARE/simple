@@ -85,6 +85,7 @@
   <!-- CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="https://unpkg.com/scroll-hint@1.2.9/css/scroll-hint.css">
   <?php wp_head(); ?>
 </head>
 
@@ -175,11 +176,14 @@
             <a class="header__top__menu__list__item__link" href="#section15_01">section15<span
                 class="header__top__menu__list__item__link__span">セクション15</span></a>
           </li>
+          <li class="header__top__menu__list__item">
+            <a class="header__top__menu__list__item__link" href="#section17_01">section17<span
+                class="header__top__menu__list__item__link__span">セクション17</span></a>
+          </li>
         </ul>
 
         <div class="header__top__menu__list__btn">
-          <a class="header__top__menu__list__btn__link comMore__link mainColor"
-            href="#section16_01">セクション16</a>
+          <a class="header__top__menu__list__btn__link comMore__link mainColor" href="#section16_01">セクション16</a>
         </div>
       </div>
 

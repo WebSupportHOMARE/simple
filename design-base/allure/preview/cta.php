@@ -1,5 +1,5 @@
 <!-- デザインベースベース名：Allure プレビュー-->
-<section id="cta_01" class="cta comSec mainColor fontColor2">
+<section id="cta_01" class="cta comSec mainColor">
   <div class="cta__wrap flex">
     <div class="cta__wrap__left">
       <p class="cta__wrap__left__top">電話でのお問い合わせ</p>
@@ -17,7 +17,8 @@
       </div>
 
       <div class="cta__wrap__right__contact">
-        <a class="cta__wrap__right__contact__link" href="#section16" target="_blank" rel="noopener noreferrer">LINEからのお問い合わせはこちら</a>
+        <a class="cta__wrap__right__contact__link" href="#section16" target="_blank"
+          rel="noopener noreferrer">LINEからのお問い合わせはこちら</a>
       </div>
     </div>
   </div>

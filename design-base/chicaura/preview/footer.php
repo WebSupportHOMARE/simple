@@ -12,31 +12,41 @@
     <ul class="footer__wrap__list flex">
       <li class="footer__wrap__list__item">
         <a href="#" target="_blank" rel="noopener noreferrer">
-          <img class="footer__wrap__list__item__img" src="https://homare1009xs.xsrv.jp/simple/wp-content/themes/simplecourse/preview/<?php the_field('designBaseName'); ?>/icon/instagram.png" alt="Instagram">
+          <img class="footer__wrap__list__item__img"
+            src="https://homare1009xs.xsrv.jp/simple/wp-content/themes/simplecourse/preview/<?php the_field('designBaseName'); ?>/icon/instagram.png"
+            alt="Instagram">
         </a>
       </li>
 
       <li class="footer__wrap__list__item">
         <a href="#" target="_blank" rel="noopener noreferrer">
-          <img class="footer__wrap__list__item__img" src="https://homare1009xs.xsrv.jp/simple/wp-content/themes/simplecourse/preview/<?php the_field('designBaseName'); ?>/icon/facebook.png" alt="facebook">
+          <img class="footer__wrap__list__item__img"
+            src="https://homare1009xs.xsrv.jp/simple/wp-content/themes/simplecourse/preview/<?php the_field('designBaseName'); ?>/icon/facebook.png"
+            alt="facebook">
         </a>
       </li>
 
       <li class="footer__wrap__list__item">
         <a href="#" target="_blank" rel="noopener noreferrer">
-          <img class="footer__wrap__list__item__img" src="https://homare1009xs.xsrv.jp/simple/wp-content/themes/simplecourse/preview/<?php the_field('designBaseName'); ?>/icon/X.png" alt="X">
+          <img class="footer__wrap__list__item__img"
+            src="https://homare1009xs.xsrv.jp/simple/wp-content/themes/simplecourse/preview/<?php the_field('designBaseName'); ?>/icon/X.png"
+            alt="X">
         </a>
       </li>
 
       <li class="footer__wrap__list__item">
         <a href="#" target="_blank" rel="noopener noreferrer">
-          <img class="footer__wrap__list__item__img" src="https://homare1009xs.xsrv.jp/simple/wp-content/themes/simplecourse/preview/<?php the_field('designBaseName'); ?>/icon/youtube.png" alt="youtube">
+          <img class="footer__wrap__list__item__img"
+            src="https://homare1009xs.xsrv.jp/simple/wp-content/themes/simplecourse/preview/<?php the_field('designBaseName'); ?>/icon/youtube.png"
+            alt="youtube">
         </a>
       </li>
 
       <li class="footer__wrap__list__item">
         <a href="#" target="_blank" rel="noopener noreferrer">
-          <img class="footer__wrap__list__item__img" src="https://homare1009xs.xsrv.jp/simple/wp-content/themes/simplecourse/preview/<?php the_field('designBaseName'); ?>/icon/tiktok.png" alt="tiktok">
+          <img class="footer__wrap__list__item__img"
+            src="https://homare1009xs.xsrv.jp/simple/wp-content/themes/simplecourse/preview/<?php the_field('designBaseName'); ?>/icon/tiktok.png"
+            alt="tiktok">
         </a>
       </li>
     </ul>
@@ -48,8 +58,11 @@
 <!-- 本番JS -->
 <!-- <script src="https://homare1009xs.xsrv.jp/simple/wp-content/themes/simplecourse/performance/<?php the_field('designBaseName'); ?>/script/main<?php the_field('scriptVersion'); ?>.js?<?php echo date('YmdHis'); ?>"></script> -->
 <!-- テストJS -->
-<script src="<?php echo get_template_directory_uri(); ?>/preview/<?php the_field('designBaseName'); ?>/script/main<?php the_field('scriptVersion'); ?>.js?<?php echo date('YmdHis'); ?>"></script>
+<script
+  src="<?php echo get_template_directory_uri(); ?>/preview/<?php the_field('designBaseName'); ?>/script/main<?php the_field('scriptVersion'); ?>.js?<?php echo date('YmdHis'); ?>">
+</script>
 <!-- CDN -->
+<script src="https://unpkg.com/scroll-hint@1.2.9/js/scroll-hint.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <?php wp_footer(); ?>

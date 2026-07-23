@@ -31,7 +31,7 @@
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
 
-              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor fontColor2">
+              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor ">
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
             </div>
@@ -59,7 +59,7 @@
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
 
-              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor fontColor2">
+              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor ">
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
             </div>
@@ -87,7 +87,7 @@
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
 
-              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor fontColor2">
+              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor ">
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
             </div>
@@ -115,7 +115,7 @@
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
 
-              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor fontColor2">
+              <div class="section02__inner__wrap__list__item__textWrap__subWrap__Sub mainColor ">
                 セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。セクション02の声などが入ります。（何個でも設定可能）
               </div>
             </div>

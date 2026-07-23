@@ -20,7 +20,7 @@
         ?>
           <li class="section09__wrap__list__item">
             <a class="section09__wrap__list__item__link" href="<?php the_permalink(); ?>">
-              <div class="section09__wrap__list__item__link__date subColor2"><?php the_time("Y.m.d"); ?></div>
+              <div class="section09__wrap__list__item__link__date"><?php the_time("Y.m.d"); ?></div>
 
               <h3 class="section09__wrap__list__item__link__ttl"><?php the_title(); ?></h3>
 

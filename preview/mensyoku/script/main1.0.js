@@ -33,11 +33,11 @@ $(() => {
         let wpadminbarHeight = wpadminbar ? wpadminbar.offsetHeight : 0;
         document.documentElement.style.setProperty(
           "--header-height",
-          `${headerHeight}px`
+          `${headerHeight}px`,
         );
         document.documentElement.style.setProperty(
           "--wpadminbar-height",
-          `${wpadminbarHeight}px`
+          `${wpadminbarHeight}px`,
         );
         main.style.visibility = "visible";
       }
@@ -58,11 +58,11 @@ $(() => {
         $(".header__top__menu").css("margin-top", "");
         $(".section12__wrap__list__item__detail").css(
           "max-height",
-          "calc(100vh - " + headerHeight + "px - clamp(40px, 4vw, 60px))"
+          "calc(100vh - " + headerHeight + "px - clamp(40px, 4vw, 60px))",
         );
         $(".section12__wrap__archive__list__item__detail").css(
           "max-height",
-          "calc(100vh - " + headerHeight + "px - clamp(40px, 4vw, 60px))"
+          "calc(100vh - " + headerHeight + "px - clamp(40px, 4vw, 60px))",
         );
       }
       if (windowWidth <= 960) {
@@ -70,7 +70,7 @@ $(() => {
         $(".header__top__menu").css("display", "");
         $(".header__top__menu").css(
           "max-height",
-          "calc(100vh - " + headerHeight + "px - clamp(25px, 7vw, 50px))"
+          "calc(100vh - " + headerHeight + "px - clamp(25px, 7vw, 50px))",
         );
         $(".header__top__hbFilter").css("display", "");
         $(".header__top__hbFilter").css("top", headerHeight);
@@ -78,11 +78,11 @@ $(() => {
         $(".header__top__hbBtn").removeClass("close");
         $(".section12__wrap__list__item__detail").css(
           "max-height",
-          "calc(100vh - " + headerHeight + "px - clamp(40px, 4vw, 60px))"
+          "calc(100vh - " + headerHeight + "px - clamp(40px, 4vw, 60px))",
         );
         $(".section12__wrap__archive__list__item__detail").css(
           "max-height",
-          "calc(100vh - " + headerHeight + "px - clamp(40px, 4vw, 60px))"
+          "calc(100vh - " + headerHeight + "px - clamp(40px, 4vw, 60px))",
         );
       }
       if (windowWidth <= 520) {
@@ -252,16 +252,16 @@ $(() => {
     };
     $(function () {
       initialState.activeLink = $(
-        ".header__top__menu__list__item__link.active, .header__top__menu__list__btn__link.active"
+        ".header__top__menu__list__item__link.active, .header__top__menu__list__btn__link.active",
       );
       initialState.activeSpan = $(
-        ".header__top__menu__list__item__link__span.active"
+        ".header__top__menu__list__item__link__span.active",
       );
       $(".goToTop__box").on("click", function () {
         resetHeaderMenuStates();
       });
       $(
-        ".header__top__menu__list__item__link, .header__top__menu__list__btn__link"
+        ".header__top__menu__list__item__link, .header__top__menu__list__btn__link",
       ).on("click", function () {
         var href = $(this).attr("href") || "";
         if (shouldBypassActivation(href)) return;
@@ -353,7 +353,7 @@ $(() => {
       if ($(window).width() <= 520) {
         if (!$(sectionId + " .section02__wrap__arrows").length) {
           $(sectionId + " .section02__wrap").append(
-            '<div class="section02__wrap__arrows flex"></div>'
+            '<div class="section02__wrap__arrows flex"></div>',
           );
           initializeSlick(sectionId);
         }
@@ -373,7 +373,7 @@ $(() => {
           for (var i = 0; i < slick.slideCount; i++) {
             if (i === 0) {
               $numContainer.append(
-                '<div class="num active">' + (i + 1) + "</div>"
+                '<div class="num active">' + (i + 1) + "</div>",
               );
             } else {
               $numContainer.append('<div class="num">' + (i + 1) + "</div>");
@@ -422,19 +422,19 @@ $(() => {
           sectionId +
             " .section04__wrap__list__item:nth-of-type(" +
             ind +
-            ") .section04__wrap__list__item__q"
+            ") .section04__wrap__list__item__q",
         ).click(() => {
           $(
             sectionId +
               " .section04__wrap__list__item:nth-of-type(" +
               ind +
-              ") .section04__wrap__list__item__a"
+              ") .section04__wrap__list__item__a",
           ).slideToggle();
           $(
             sectionId +
               " .section04__wrap__list__item:nth-of-type(" +
               ind +
-              ") .section04__wrap__list__item__q"
+              ") .section04__wrap__list__item__q",
           ).toggleClass("open");
         });
       });
@@ -451,7 +451,7 @@ $(() => {
     };
     document.querySelectorAll("[id^='section05_']").forEach((section) => {
       const section5Items = section.querySelectorAll(
-        ".section05__wrap__list__item"
+        ".section05__wrap__list__item",
       );
       setNumberSection05(section5Items);
     });
@@ -463,7 +463,7 @@ $(() => {
       if ($(window).width() <= 960) {
         if (!$(sectionId + " .section07__wrap__arrows").length) {
           $(sectionId + " .section07__wrap__list").after(
-            '<div class="section07__wrap__arrows flex"></div>'
+            '<div class="section07__wrap__arrows flex"></div>',
           );
           initializeSlick2(sectionId);
         }
@@ -483,7 +483,7 @@ $(() => {
           for (var i = 0; i < slick.slideCount; i++) {
             if (i === 0) {
               $numContainer.append(
-                '<div class="num active">' + (i + 1) + "</div>"
+                '<div class="num active">' + (i + 1) + "</div>",
               );
             } else {
               $numContainer.append('<div class="num">' + (i + 1) + "</div>");
@@ -548,10 +548,10 @@ $(() => {
         function () {
           var postId = $(this).attr("class").split("--")[1];
           $(
-            sectionId + " .section07__wrap__list__item__detail--" + postId
+            sectionId + " .section07__wrap__list__item__detail--" + postId,
           ).fadeIn();
           $("body").css("overflow", "hidden");
-        }
+        },
       );
       $(sectionId + " .section07__wrap__modalList__item").on(
         "click",
@@ -559,7 +559,7 @@ $(() => {
         function () {
           $(this).closest(".section07__wrap__list__item__detail").fadeOut();
           $("body").css("overflow", "auto");
-        }
+        },
       );
       $(sectionId + " .section07__wrap__archive__list").on(
         "click",
@@ -569,10 +569,10 @@ $(() => {
           $(
             sectionId +
               " .section07__wrap__archive__list__item__detail--" +
-              postId
+              postId,
           ).fadeIn();
           $("body").css("overflow", "hidden");
-        }
+        },
       );
       $(sectionId + " .section07__wrap__archive__modalList").on(
         "click",
@@ -582,7 +582,7 @@ $(() => {
             .closest(".section07__wrap__archive__list__item__detail")
             .fadeOut();
           $("body").css("overflow", "auto");
-        }
+        },
       );
       $(sectionId + " .section07__wrap__more--modal").click(() => {
         $(sectionId + " .section07__wrap__archive").fadeIn();
@@ -605,10 +605,10 @@ $(() => {
         function () {
           var postId = $(this).attr("class").split("--")[1];
           $(
-            sectionId + " .section09__wrap__list__item__detail--" + postId
+            sectionId + " .section09__wrap__list__item__detail--" + postId,
           ).fadeIn();
           $("body").css("overflow", "hidden");
-        }
+        },
       );
       $(sectionId + " .section09__wrap__modalList").on(
         "click",
@@ -616,7 +616,7 @@ $(() => {
         function () {
           $(this).closest(".section09__wrap__list__item__detail").fadeOut();
           $("body").css("overflow", "auto");
-        }
+        },
       );
       $(sectionId + " .section09__wrap__archive__list").on(
         "click",
@@ -626,10 +626,10 @@ $(() => {
           $(
             sectionId +
               " .section09__wrap__archive__list__item__detail--" +
-              postId
+              postId,
           ).fadeIn();
           $("body").css("overflow", "hidden");
-        }
+        },
       );
       $(sectionId + " .section09__wrap__archive__modalList").on(
         "click",
@@ -639,7 +639,7 @@ $(() => {
             .closest(".section09__wrap__archive__list__item__detail")
             .fadeOut();
           $("body").css("overflow", "auto");
-        }
+        },
       );
       $(sectionId + " .section09__wrap__more--modal").click(() => {
         $(sectionId + " .section09__wrap__archive").fadeIn();
@@ -656,7 +656,7 @@ $(() => {
     function trimText() {
       // 対象クラスをまとめて指定
       var targets = $(
-        ".section09__wrap__list__item__link__text, .section09__wrap__archive__list__item__link__text"
+        ".section09__wrap__list__item__link__text, .section09__wrap__archive__list__item__link__text",
       );
 
       targets.each(function () {
@@ -709,7 +709,7 @@ $(() => {
     };
     document.querySelectorAll("[id^='section10_']").forEach((section) => {
       const section10Items = section.querySelectorAll(
-        ".section10__wrap__list__item"
+        ".section10__wrap__list__item",
       );
       setNumberSection10(section10Items);
     });
@@ -725,13 +725,13 @@ $(() => {
         function () {
           var postId = $(this).attr("class").split("--")[1];
           $(
-            sectionId + " .section12__wrap__list__item__detail--" + postId
+            sectionId + " .section12__wrap__list__item__detail--" + postId,
           ).fadeIn();
           $(
-            sectionId + " .section12__wrap__list__item__detail__filter"
+            sectionId + " .section12__wrap__list__item__detail__filter",
           ).fadeIn();
           $("body").css("overflow", "hidden");
-        }
+        },
       );
       $(sectionId + " .section12__wrap__modalList").on(
         "click",
@@ -740,7 +740,7 @@ $(() => {
           $(".section12__wrap__list__item__detail").fadeOut();
           $(".section12__wrap__list__item__detail__filter").fadeOut();
           $("body").css("overflow", "auto");
-        }
+        },
       );
       $(sectionId + " .section12__wrap__archive__list").on(
         "click",
@@ -750,13 +750,14 @@ $(() => {
           $(
             sectionId +
               " .section12__wrap__archive__list__item__detail--" +
-              postId
+              postId,
           ).fadeIn();
           $(
-            sectionId + " .section12__wrap__archive__list__item__detail__filter"
+            sectionId +
+              " .section12__wrap__archive__list__item__detail__filter",
           ).fadeIn();
           $("body").css("overflow", "hidden");
-        }
+        },
       );
       $(sectionId + " .section12__wrap__archive__modalList").on(
         "click",
@@ -765,7 +766,7 @@ $(() => {
           $(".section12__wrap__archive__list__item__detail").fadeOut();
           $(".section12__wrap__archive__list__item__detail__filter").fadeOut();
           $("body").css("overflow", "auto");
-        }
+        },
       );
       $(sectionId + " .section12__wrap__more--modal").click(() => {
         $(sectionId + " .section12__wrap__archive").fadeIn();
@@ -821,22 +822,22 @@ $(() => {
       $("[id^='section16_']").each(function () {
         var sectionId = "#" + this.id;
         $(
-          sectionId + " .section16__wrap__form__body__row__place select"
+          sectionId + " .section16__wrap__form__body__row__place select",
         ).hide();
         $(sectionId + " .section16__wrap__form__body__row__place select").after(
-          '<div class="custom-select"></div>'
+          '<div class="custom-select"></div>',
         );
         var customSelect = $(sectionId + " .custom-select");
         customSelect.append('<div class="current-select">ご選択ください</div>');
         var options = $(
-          sectionId + " .section16__wrap__form__body__row__place select option"
+          sectionId + " .section16__wrap__form__body__row__place select option",
         )
           .map(function () {
             return "<div>" + $(this).text() + "</div>";
           })
           .get();
         customSelect.append(
-          '<div class="custom-select-options">' + options.join("") + "</div>"
+          '<div class="custom-select-options">' + options.join("") + "</div>",
         );
         customSelect.find(".current-select").click(function (e) {
           e.stopPropagation();
@@ -846,7 +847,7 @@ $(() => {
         customSelect.find(".custom-select-options div").click(function () {
           var value = $(this).text();
           $(sectionId + " .section16__wrap__form__body__row__place select").val(
-            value
+            value,
           );
           $(this).closest(".custom-select").find(".current-select").text(value);
           $(this).parent(".custom-select-options").slideUp();
@@ -856,7 +857,7 @@ $(() => {
       $(document).click(function (e) {
         if (
           !$(e.target).closest(
-            ".section16__wrap__form__body__row__place .custom-select"
+            ".section16__wrap__form__body__row__place .custom-select",
           ).length
         ) {
           $(".custom-select-options").slideUp();
@@ -872,7 +873,7 @@ $(() => {
       var currentUrl = window.location.pathname;
       if (currentUrl.includes("contact-confirmation")) {
         var btnBox = document.querySelector(
-          ".section16__wrap__form__body__btnBox"
+          ".section16__wrap__form__body__btnBox",
         );
         if (btnBox) {
           btnBox.classList.add("flex");
@@ -884,7 +885,7 @@ $(() => {
   // セクション16確認、送信ボタンにmainColor追加
   if (enableSection16BtnMainColor) {
     $(
-      ".section16__wrap__form__body__btnBox__wrap:last-of-type .section16__wrap__form__body__btnBox__btn"
+      ".section16__wrap__form__body__btnBox__wrap:last-of-type .section16__wrap__form__body__btnBox__btn",
     ).addClass("mainColor");
   }
 
@@ -907,11 +908,17 @@ $(() => {
 
   setTimeout(function () {
     $(".section16__wrap__form__body__row__place .current-select").addClass(
-      "aLink"
+      "aLink",
     );
   }, 1000);
 
   $(".section16__wrap__form__body__row__place label").addClass("aLink").css({
     display: "inline",
+  });
+  // スクロールヒント
+  new ScrollHint(".js-scrollable", {
+    i18n: {
+      scrollable: "スクロールできます",
+    },
   });
 });

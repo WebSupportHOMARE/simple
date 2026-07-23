@@ -96,6 +96,11 @@ get_template_part('/design-base/' . $template_name . '/performance/header');
 
   <?php
   $template_name = get_field('designBaseName', 'option');
+  get_template_part('/design-base/' . $template_name . '/performance/section17');
+  ?>
+
+  <?php
+  $template_name = get_field('designBaseName', 'option');
   get_template_part('/design-base/' . $template_name . '/performance/section15');
   ?>
 </main>

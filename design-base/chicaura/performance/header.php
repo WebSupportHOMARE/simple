@@ -188,6 +188,12 @@
               href="<?php echo home_url('/#/'); ?>">section15<span
                 class="header__top__menu__list__item__link__span<?php if (is_post_type_archive('#') || is_singular("#") || is_page('#')) : ?> active<?php endif; ?>">セクション15</span></a>
           </li>
+
+          <li class="header__top__menu__list__item">
+            <a class="header__top__menu__list__item__link<?php if (is_post_type_archive('#') || is_singular("#") || is_page('#')) : ?> active mainColor<?php endif; ?>"
+              href="<?php echo home_url('/#/'); ?>">section17<span
+                class="header__top__menu__list__item__link__span<?php if (is_post_type_archive('#') || is_singular("#") || is_page('#')) : ?> active<?php endif; ?>">セクション17</span></a>
+          </li>
         </ul>
 
         <div class="header__top__menu__list__btn">

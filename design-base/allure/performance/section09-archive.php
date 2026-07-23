@@ -23,64 +23,29 @@
 
     if (have_posts()) :
     ?>
-      <!-- ページ仕様 -->
-      <ul class="section09__wrap__archive__list mw">
-        <?php while (have_posts()) : the_post(); ?>
-          <li class="section09__wrap__archive__list__item">
-            <a class="section09__wrap__archive__list__item__link" href="<?php the_permalink(); ?>">
-              <h3 class="section09__wrap__archive__list__item__link__ttl"><?php the_title(); ?></h3>
-
-              <div class="section09__wrap__archive__list__item__link__date"><?php the_time("Y.m.d"); ?></div>
-
-              <div class="section09__wrap__archive__list__item__link__text">
-                <?php echo mb_substr(strip_tags(get_the_content()), 0, 60) . '…'; ?>
-              </div>
-            </a>
-          </li>
-        <?php endwhile; ?>
-      </ul>
-
-      <!-- モーダル仕様 -->
-      <!-- <ul class="section09__wrap__archive__list mw">
+    <!-- ページ仕様 -->
+    <ul class="section09__wrap__archive__list mw">
       <?php while (have_posts()) : the_post(); ?>
-            <li class="section09__wrap__archive__list__item">
-              <div class="section09__wrap__archive__list__item__link comModal__link section09__wrap__archive__list__item__link--<?php the_ID(); ?>">
-                <h3 class="section09__wrap__archive__list__item__link__ttl"><?php the_title(); ?></h3>
+      <li class="section09__wrap__archive__list__item">
+        <a class="section09__wrap__archive__list__item__link" href="<?php the_permalink(); ?>">
+          <h3 class="section09__wrap__archive__list__item__link__ttl"><?php the_title(); ?></h3>
 
-                <div class="section09__wrap__archive__list__item__link__date"><?php the_time("Y.m.d"); ?></div>
+          <div class="section09__wrap__archive__list__item__link__date"><?php the_time("Y.m.d"); ?></div>
 
-                <div class="section09__wrap__archive__list__item__link__text"><?php the_content(); ?></div>
-              </div>
-            </li>
-          <?php endwhile; ?>
-        </ul>
+          <div class="section09__wrap__archive__list__item__link__text">
+            <?php echo mb_substr(strip_tags(get_the_content()), 0, 60) . '…'; ?>
+          </div>
+        </a>
+      </li>
+      <?php endwhile; ?>
+    </ul>
 
-        <ul class="section09__wrap__archive__modalList">
-        <?php while (have_posts()) : the_post(); ?>
-            <li class="section09__wrap__archive__modalList__item">
-              <div class="section09__wrap__archive__list__item__detail comModal__link__detail section09__wrap__archive__list__item__detail--<?php the_ID(); ?> comSec none">
-                <h3 class="section09__wrap__archive__list__item__detail__ttl"><?php the_title(); ?></h3>
+    <?php wp_reset_postdata(); ?>
 
-                <div class="section09__wrap__archive__list__item__detail__date"><?php the_time("Y.m.d"); ?></div>
-
-                <div class="section09__wrap__archive__list__item__detail__text"><?php the_content(); ?></div>
-
-                <div class="section09__wrap__archive__list__item__detail__more">
-                  <div class="section09__wrap__archive__list__item__detail__more__link comMore__link mainColor">一覧へ戻る</div>
-                </div>
-              </div>
-
-              <div class="section09__wrap__archive__list__item__detail__filter none"></div>
-            </li>
-          <?php endwhile; ?>
-        </ul> -->
-
-      <?php wp_reset_postdata(); ?>
-
-      <?php get_template_part('/parts/pagination'); ?>
+    <?php get_template_part('/parts/pagination'); ?>
 
     <?php else : ?>
-      <p class="not__text">現在セクション09の投稿はございません。</p>
+    <p class="not__text">現在セクション09の投稿はございません。</p>
     <?php endif; ?>
   </div>
 </section>

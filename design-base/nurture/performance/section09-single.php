@@ -3,7 +3,7 @@
 
 <section id="section09_01" class="section09__single comSec">
   <div class="section09__wrap__list__item__detail comSec">
-    <h2 class="section09__wrap__list__item__detail__ttl"><?php the_title(); ?></h2>
+    <h3 class="section09__wrap__list__item__detail__ttl"><?php the_title(); ?></h3>
 
     <div class="section09__wrap__list__item__detail__date"><?php the_time("Y.m.d"); ?></div>
 

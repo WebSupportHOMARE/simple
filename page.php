@@ -96,6 +96,11 @@ get_template_part('/design-base/' . $template_name . '/preview/header');
 
   <?php
   $template_name = get_field('designBaseName');
+  get_template_part('/design-base/' . $template_name . '/preview/section17');
+  ?>
+  
+  <?php
+  $template_name = get_field('designBaseName');
   get_template_part('/design-base/' . $template_name . '/preview/section15');
   ?>
 </main>
